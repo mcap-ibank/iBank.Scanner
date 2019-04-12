@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="iBank.Scanner.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="ПК iBank - Сканнер">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Сверка с базой" Clicked="Button_Verification_Clicked"/>
+            <Button Text="Показ данных" Clicked="Button_View_Clicked"/>
+            <Button Text="Сверить с электронкой" Clicked="Button_Document_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

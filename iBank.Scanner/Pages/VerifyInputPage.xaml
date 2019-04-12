@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iBank.Scanner.VerifyInputPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Label1"/>
+            <Label x:Name="Label2"/>
+            <!--<Label x:Name="Label3"/>-->
+            <Button Text="Выбрать электронку" Clicked="Button_PickFile_Clicked"/>
+            <Button Text="Распознать паспорт" Clicked="Button_Verify_Clicked"/>
+            <Button Text="Собрать электронку" Clicked="Button_RebuildFile_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
